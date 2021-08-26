@@ -11,25 +11,26 @@ class CartItem extends React.Component{
             img:''
         }
        // this.increaseQuantity = this.increaseQuantity.bind(this);
-       this.testing();
+     //  this.testing();
     }
 
 
 
-    testing(){
-        const promise = new Promise((resolve,reject)=>{
-            setTimeout(()=>{
-                resolve("done");
-            },5000);
-        })
-        promise.then(()=>{
-            //setState acts as synchronous call
-            this.setState({qty : 100 });
+    // outside of event handler react doesn't perform batching
+    // testing(){
+    //     const promise = new Promise((resolve,reject)=>{
+    //         setTimeout(()=>{
+    //             resolve("done");
+    //         },5000);
+    //     })
+    //     promise.then(()=>{
+    //         //setState acts as synchronous call
+    //         this.setState({qty : 100 });
 
-           // if we write same above line 3 times the model gets rendered thrice because it is a synchronous call now
-            console.log('state',this.state);
-        });
-    }
+    //        // if we write same above line 3 times the model gets rendered thrice because it is a synchronous call now
+    //         console.log('state',this.state);
+    //     });
+    // }
 
    
 
