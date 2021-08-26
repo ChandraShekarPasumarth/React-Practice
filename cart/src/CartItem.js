@@ -17,6 +17,30 @@ class CartItem extends React.Component{
          console.log('this.state',this.state);
         //To avoid this we have to bind it with object in onClick of + image , this will be pointing to the cartItem class after we write bind
         // we can write the same in constructor when we have multiple event handlers. (or) we can use arrow function
+        
+
+        // To increase the qty we have to set state 
+        // Calling the setstate we can re render our component with a new value
+     
+
+        /*  this.setState({
+            qty:this.state.qty +1 
+        }); */
+
+        // setState form 2
+
+        this.setState((prevState)=>{
+            return {
+                qty:prevState.qty +1
+            }
+
+        });
+    }
+    decreaseQuantity = ()=>{
+        this.setState({
+            qty:this.state.qty -1 // react will take this object and it will merge with our state object i.e. shallow merging which means it will change the qty .
+
+        });
     }
     render(){
         // object de-structering , The properties will be fetched from the state object
@@ -25,7 +49,7 @@ class CartItem extends React.Component{
         return(
             <div className="cart-item">
                 <div className="left-block">
-                    <img alt="Loading" style={styles.image} />
+                    <img  style={styles.image} />
 
                 </div>
                 <div className="right-block">
@@ -46,6 +70,7 @@ class CartItem extends React.Component{
                         alt="decrease" 
                         className="action-icons"
                         src="https://image.flaticon.com/icons/png/512/992/992683.png"
+                        onClick={this.decreaseQuantity}
                         />
 
                         <img 
