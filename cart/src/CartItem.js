@@ -1,19 +1,7 @@
 import React from 'react';
 
 class CartItem extends React.Component{
-    constructor(){
-        // whenever we are using constructor in derived class we have to call the super class constructor 
-        super();
-        this.state ={
-            price: 999,
-            title:'mobile-phone',
-            qty:1,
-            img:''
-        }
-       // this.increaseQuantity = this.increaseQuantity.bind(this);
-     //  this.testing();
-    }
-
+   
 
 
     // outside of event handler react doesn't perform batching
@@ -90,7 +78,10 @@ class CartItem extends React.Component{
     }
     render(){
         // object de-structering , The properties will be fetched from the state object
-        const {price,title,qty}= this.state;
+      //  const {price,title,qty}= this.state;
+
+      //passing the new objects in to cart using props
+      const {price,title,qty} = this.props.product;
 
         console.log('render');
         
