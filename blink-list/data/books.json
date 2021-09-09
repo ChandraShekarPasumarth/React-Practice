@@ -1,0 +1,112 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Disrupt You!",
+      "author": "Jay Samit",
+      "image": "https://images.blinkist.io/images/books/6102b8956cee070007d9f43f/1_1/470.jpg",
+      "category": "Entrepreneurship",
+      "time": "18",
+      "status": "current"
+    },
+    {
+      "id": 2,
+      "title": "Lessons from the Titans",
+      "author": "Scott Davis",
+      "image": "https://images.blinkist.io/images/books/613218936cee070007631d6c/1_1/470.jpg",
+      "category": "Entrepreneurship",
+      "time": "20",
+      "status": "finished"
+    },
+    {
+      "id": 3,
+      "title": "Zero Fail",
+      "author": "Carol Leonnig",
+      "image": "https://images.blinkist.io/images/books/611fce456cee0700070603e8/1_1/470.jpg",
+      "category": "Politics",
+      "time": "15",
+      "status": "Explore"
+    },
+    {
+      "id": 4,
+      "title": "Mission Economy",
+      "author": "Mariana Mazzucato",
+      "image": "https://images.blinkist.io/images/books/61165e316cee070007535c24/1_1/470.jpg",
+      "category": "Politics",
+      "time": "20",
+      "status": "Explore"
+    },
+    {
+      "id": 5,
+      "title": "Extra Life",
+      "author": "Steven Johnson",
+      "image": "https://images.blinkist.io/images/books/613083ba6cee070008bb9ce6/1_1/470.jpg",
+      "category": "Science",
+      "time": "20",
+      "status": "Explore"
+    },
+    {
+      "id": 6,
+      "title": "Subtract",
+      "author": "Steven Johnson",
+      "image": "https://images.blinkist.io/images/books/60ffb9e26cee070007f2f785/1_1/470.jpg",
+      "category": "Science",
+      "time": "10",
+      "status": "Explore"
+    },
+    {
+      "id": 7,
+      "title": "Thrivers",
+      "author": "Michele Borba",
+      "image": "https://images.blinkist.io/images/books/610d30ab6cee070007ec8813/1_1/470.jpg",
+      "category": "Education",
+      "time": "13",
+      "status": "Explore"
+    },
+    {
+      "id": 8,
+      "title": "Leveraged Learning",
+      "author": "Danny Iny",
+      "image": "https://images.blinkist.io/images/books/60ae77136cee0700084a2c50/1_1/470.jpg",
+      "category": "Education",
+      "time": "15",
+      "status": "Explore"
+    },
+    {
+      "id": 9,
+      "title": "A World Without Work",
+      "author": "Daniel Susskind",
+      "image": "https://images.blinkist.io/images/books/600aa8476cee070007562cf5/1_1/470.jpg",
+      "category": "Economics",
+      "time": "13",
+      "status": "Explore"
+    },
+    {
+      "id": 10,
+      "title": "2030",
+      "author": "Mauro F. Guillén",
+      "image": "https://images.blinkist.io/images/books/5f8028cf6cee07000646ad16/1_1/470.jpg",
+      "category": "Economics",
+      "time": "15",
+      "status": "Explore"
+    },
+    {
+      "id": 11,
+      "title": "Fear Less",
+      "author": "Dr. Pippa Grange",
+      "image": "https://images.blinkist.io/images/books/6116795e6cee070007535cc9/1_1/470.jpg",
+      "category": "Motivation",
+      "time": "13",
+      "status": "Explore"
+    },
+    {
+      "id": 12,
+      "title": "Dream Big",
+      "author": "Bob Goff",
+      "image": "https://images.blinkist.io/images/books/61165c776cee070007535c0d/1_1/470.jpg",
+      "category": "Motivation",
+      "time": "12",
+      "status": "Explore"
+    }
+  ]
+}
