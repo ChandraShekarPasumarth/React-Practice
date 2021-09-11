@@ -14,6 +14,7 @@ import CardItems from '../../molecules/Card/Card';
   }
 
   useEffect(()=>{
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[library])
 
   return <CardItems name={props.name} time={props.time} set={props.set} onClick={handleClick} disabled={library} title={props.title} author={props.author}  image={props.image}/>

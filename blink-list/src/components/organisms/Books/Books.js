@@ -40,7 +40,7 @@ const BookItem = (props) => {
     );
   };
 
-
+  // if(c)
   var bookslist = books;
   if (props.searchName !== undefined) {
     bookslist = bookslist.filter(function (book) {
@@ -58,7 +58,7 @@ const BookItem = (props) => {
         console.log("In View If");
         if (book.status === "current") {
           console.log("In If" + book.status);
-          return ( 
+          return (
             book.title.toLowerCase().indexOf(props.searchVal.toLowerCase()) >
               -1 ||
             book.author.toLowerCase().indexOf(props.searchVal.toLowerCase()) >
@@ -83,10 +83,10 @@ const BookItem = (props) => {
           book.author.toLowerCase().indexOf(props.searchVal.toLowerCase()) > -1
         );
       }
+      return null;
     });
     console.log(bookslist);
   }
-  
 
   if (props.category !== undefined && props.category !== "") {
     bookslist = bookslist.filter(function (book) {

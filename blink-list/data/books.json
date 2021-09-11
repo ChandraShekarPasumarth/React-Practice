@@ -107,6 +107,33 @@
       "category": "Motivation",
       "time": "12",
       "status": "Explore"
+    },
+    {
+      "title": "Missing Each Other",
+      "author": "Chandra",
+      "category": "Science",
+      "time": "10",
+      "status": "explore",
+      "image": "https://images.blinkist.com/images/books/5aa7bb21b238e10007af44aa/1_1/470.jpg",
+      "id": 13
+    },
+    {
+      "title": "My Life My Rules",
+      "author": "Shekar",
+      "category": "Health",
+      "time": "10",
+      "status": "explore",
+      "image": "https://images.blinkist.com/images/books/5aa7bb21b238e10007af44aa/1_1/470.jpg",
+      "id": 14
+    },
+    {
+      "title": "Never Ending",
+      "image": "https://images.blinkist.io/images/books/612e056b6cee07000752624a/1_1/470.jpg",
+      "author": "Chandra",
+      "category": "Politics",
+      "time": "10",
+      "status": "current",
+      "id": 15
     }
   ]
 }
